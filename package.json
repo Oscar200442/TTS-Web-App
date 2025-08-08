@@ -1,0 +1,18 @@
+{
+  "name": "tts-web-app",
+  "version": "1.0.0",
+  "description": "A simple Text-to-Speech web app using Google Cloud and Vercel.",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Oscar200442",
+  "license": "ISC"
+}
