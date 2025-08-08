@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/speak.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs@18.x",
       "includeFiles": "node_modules/@google-cloud/text-to-speech/**"
     }
   },
