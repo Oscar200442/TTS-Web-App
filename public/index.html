@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderne Tekst-til-Tale</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Skriv, lyt, gentag.</h1>
+        <p>Indtast din tekst, og lad mig omdanne den til tale. Moderne, hurtigt, gratis.</p>
+        <textarea id="textInput" placeholder="Skriv din tekst her..."></textarea>
+        <button id="speakBtn">Afspil</button>
+        <audio id="audioPlayer" controls></audio>
+        <div id="loadingIndicator" class="hidden">Omdanner tekst til tale...</div>
+        <div id="errorMessage" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
