@@ -2,9 +2,7 @@
   "functions": {
     "api/speak.js": {
       "runtime": "nodejs18.x",
-      "includeFiles": [
-        "node_modules/@google-cloud/text-to-speech/**"
-      ]
+      "includeFiles": "node_modules/@google-cloud/text-to-speech/**"
     }
   },
   "routes": [
