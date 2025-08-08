@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "api/speak.js": {
+      "runtime": "nodejs18.x",
+      "includeFiles": [
+        "node_modules/@google-cloud/text-to-speech/**"
+      ]
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/speak",
+      "dest": "/api/speak.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
